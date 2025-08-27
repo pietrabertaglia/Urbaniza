@@ -1,172 +1,100 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/estilo.css">
-</head>
-  <!-- HEADER -->
-  <header class="header">
-    <div class="logo">
-      <img src="IMG/logotipo-da-nuve.gif" alt="NUVE Skincare" width="150" height="auto"/>
-    </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Urbaniza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <nav class="menu">
-      <a href="MENU.HTML">Menu</a>
-      <a href="SOBRE.HTML">Colaboradores</a>
-      <a href="PRODUTOS.HTML">Produtos</a>
-      <button id="openCart" class="btn-cart">Minha Sacola</button>
-    </nav>
-  </header>
-   
-            <!--PESSSOA 1 - INICIO-->
-            <div class="esq_sob">
-                <div class="texto">
-                    <img src="IMG/BARBARA.jpeg" width="250" height="auto">
-                   
-                        <h1>Barbara - Criadora</h1>
-                        <br>
-                        <p> Oi! Tenho 16 anos e sou a investidora da NUVE Skincare, uma loja feita para quem ama se cuidar e realçar sua beleza de forma leve e divertida! Sempre fui apaixonada por produtos de skincare, maquiagem e tudo que envolve autoestima, e decidi transformar essa paixão em um sonho real
-                        </p>
-                   
-             
-                </div>
-            </div>
-            <!--PESSSOA 1 - FIM-->
+    <head>
+        <link rel="stylesheet" href="estilo.css">
 
-            <!--PESSSOA 2 - INICIO-->
-            <div class="esq_sob">
-                <div class="texto">
-                    <img src="IMG/ALVIM.jpeg" width="250" height="auto">
-                    <h1>Isabela - Criadora</h1>
-                    <br>
-                    <p>
-                        Oi! Tenho 16 anos e sou a investidora da NUVE Skincare, uma loja feita para quem ama se
-                        cuidar e realçar sua beleza de forma leve e divertida! Sempre fui apaixonada por
-                        produtos de skincare, maquiagem e tudo que envolve autoestima, e decidi transformar essa
-                        paixão em um sonho real
-                    </p>
-                </div>
-            </div>
- 
-            <!--PESSSOA 3 - INICIO-->
-            <div class="esq_sob">
-                <div class="texto">
-                    <img src="IMG/isabelle 2.png" width="250" height="auto">
-                    <h1>Isabelle - Criadora</h1>
-                    <br>
-                    <p>
-                        Oi! Tenho 16 anos e sou a investidora da NUVE Skincare, uma loja feita para quem ama se
-                        cuidar e realçar sua beleza de forma leve e divertida! Sempre fui apaixonada por
-                        produtos de skincare, maquiagem e tudo que envolve autoestima, e decidi transformar essa
-                        paixão em um sonho real
-                    </p>
-                </div>
-            </div>
-         
-            <!--PESSSOA 4 - INICIO-->
-            <div class="esq_sob">
-                <div class="texto">
-                    <img src="IMG/LIVIA.jpeg" width="250" height="auto" style="text-align: center;">
-                    <h1>Livia - Criadora</h1>
-                    <br>
-                    <p>
-                        Oi! Tenho 16 anos e sou a investidora da NUVE Skincare, uma loja feita para quem ama se
-                        cuidar e realçar sua beleza de forma leve e divertida! Sempre fui apaixonada por
-                        produtos de skincare, maquiagem e tudo que envolve autoestima, e decidi transformar essa
-                        paixão em um sonho real
-                    </p>
-                    <br>
-                 
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-           
-    </main>
-               
 
-            </div>
-               <!-- RODAPÉ -->
-  <footer class="footer" aria-label="Rodapé do site de skincare">
-    <div class="container">
-      <div class="grid">
-        <!-- Sobre a marca -->
-        <section class="section">
-          <div class="brand" aria-label="Identidade da marca">
-            <span class="brand__logo" aria-hidden="true"></span>
-            <span class="brand__name">NUVE</span>
-          </div>
-          <p class="brand__tag">Cuidados que iluminam a sua pele: fórmulas limpas, resultados reais e um ritual que abraça você todos os dias.</p>
-          <span class="badge" title="Dermatologicamente testado">
-            <span class="dot" aria-hidden="true"></span>
-            Dermatologicamente testado
-          </span>
-        </section>
 
-        <!-- Navegação -->
-        <nav class="section" aria-label="Navegação do rodapé">
-          <h4>PRODUTOS</h4>
-          <ul class="links">
-            <li><a href="#">Pele seca</a></li>
-            <li><a href="#">Pele mista </a></li>
-            <li><a href="#">Pele oleosa</a></li>
-           
-          </ul>
+    <body class="cor">
+        <nav class="navbar navbar-expand-lg p-5 cabecario">
+            <div class="container-fluid">
+
+                <!-- começo do menu-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  p-5 text-light " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ///
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Página inicial</a></li>
+                                <li><a class="dropdown-item" href="fundadores.html">Fundadores</a></li>
+                                <li><a class="dropdown-item" href="interiores.html">Interiores</a></li>
+                                <li><a class="dropdown-item" href="exteriores.html">Exteriores</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Entre em contato</a></li>
+                            </ul>
+                            <!-- -->
+                </div>
+                <img src="img/Urbaniza.png" class="titulo">
+                <form class="d-flex pesquisar" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Ok</button>
+                </form>
+            </div>
         </nav>
 
-       
+        <img src="img/interior 11.jpg">
 
-        <!-- Newsletter -->
-        <section class="section" aria-label="Assine nossa newsletter">
-          <h4>Fique por dentro</h4>
-          <div class="newsletter">
-            <p>Siga as nas nossa redes sociais </p>
-         
-            <div class="social">
-      <a href="https://instagram.com" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
-      </a>
-      <a href="https://wa.me/seunumerowhatsapp" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111728.png" alt="WhatsApp">
-      </a>
-      <a href="https://t.me/seutelegram" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
-      </a>
-    </div>
-          </div>
-        </section>
-      </div>
+         <!-- rodape-->
+        <div class="rodaback colunas">
+            <h2 class="textroda">Estamos localizados:</h2>
+            <div class="row">
+                <div class="col-12 col-md-6">
 
-      <div class="divider" role="separator" aria-hidden="true"></div>
+                    <iframe class="m-5"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29395.993838615304!2d-43.263410863828604!3d-22.931834371163784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e1b4bfbdacd%3A0x4a4d38d7dbf91618!2sTijuca%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1755784404244!5m2!1spt-BR!2sbr"
+                        width="400" height="250" class="margin3" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
 
-      <div class="bottom">
-     
-        <div class="payments" aria-label="Formas de pagamento aceitas">
-          <span class="chip" title="Cartões de crédito">
-            <!-- Cartão -->
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="5" width="20" height="14" rx="2" ry="2" stroke-width="1.5"/><line x1="2" y1="10" x2="22" y2="10" stroke-width="1.5"/></svg>
-            Cartões
-          </span>
-          <span class="chip" title="Pix">
-            <!-- Pix -->
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M7 7l5-5 5 5-5 5-5-5zm0 10l5 5 5-5-5-5-5 5z" stroke-width="1.5"/></svg>
-            Pix
-          </span>
-          <span class="chip" title="Boleto bancário">
-            <!-- Boleto -->
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="16" rx="2" stroke-width="1.5"/><path d="M7 6v12M11 6v12M15 6v12M19 6v12" stroke-width="1.2"/></svg>
-            Boleto
-          </span>
+                <div class="col-12 col-md-5">
+              
+                    <div>
+                        <a class="" href="https://pt-br.facebook.com/" target="_blank"><img src="img/facebook.png"
+                                width="100px" height="100px"></a>
+
+                    </div>
+                    <div>
+
+                        <a class="" href="https://web.whatsapp.com/" target="_blank"><img src="img/whats.png"
+                                width="100px" height="100px"></a>
+
+                    </div>
+                    <div>
+
+                        <a class="" href="https://wwws. instagram.com/" target="_blank"><img src="img/insta.png"
+                                width="100px" height="100px"></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <p class="pr"><i>Urbaniza 2025 🏡 Pietra, Felipe, Gabriele e Matheus</i></p>
+
+            </div>
+
+
         </div>
-   
-          </span>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </body>
 
+</html>
 </html>
