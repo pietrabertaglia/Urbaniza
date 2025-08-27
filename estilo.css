@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.cabecario {
+  background-color: #3D2A1C;
+
+}
+
+
+.back {
+  background-color: #beb6a9;
+}
+.fundo{
+    background-color: #beb6a9;
+
+}
+
+.fonte {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+p {
+  float: left;
+  font-family: "Playfair Display", serif;
+  background-color: (217, 209, 196);
+  font-size: 23px;
+  width: 55%;
+  margin: 2px 60px;
+  color: #342111;
+
+}
+
+.l {
+  margin-top: 10px;
+}
+
+.hj {
+  font-family: "Playfair Display", serif;
+  color: #342111;
+  padding: 30px 50px;
+  font-size: 30px;
+
+}
+
+.margin1 {
+  margin: 130px;
+
+}
+
+.margin2 {
+  margin-top: 300px;
+  margin-left: 40px;
+
+
+}
+
+.titulo {
+  margin-right: 300px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #342111;
+  padding: 30px 50px;
+  font-size: 30px;
+
+}
+
+.tit {
+  font-family: "Playfair Display", serif;
+  color: #342111;
+  padding: 60px 50px;
+  font-size: 60px;
+
+
+}
+.redes{
+  margin-bottom: 300px;
+}
+.espaço {
+  margin-left: 23px;
+}
+
+.int {
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  transition: all 1s;
+}
+
+.int:hover {
+  width: 350px;
+  height: 350px;
+  transition: scale(1.03);
+}
+
+.rodaback {
+  background-color: #342111;
+
+}
+
+.textroda {
+  font-family: "Playfair Display", serif;
+  color: #beb6a9;
+  padding: 30px 50px;
+  font-size: 30px;
+
+}
+
+.pr {
+  float: left;
+  font-family: "Playfair Display", serif;
+  background-color: (217, 209, 196);
+  font-size: 23px;
+  width: 55%;
+  margin: 2px 60px;
+  color: #beb6a9;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+
+
+
+/* Container menu lado direito */
+
+.social {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social a {
+    color: #bdb7ae;
+    font-size: 2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.margem {
+    margin-left: 600px;
+
+}
+
+.form-row input,
+
+/*estilo da caixa de texto*/
+
+.cordacaixatexto textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bdb7ae;
+    background: transparent;
+    padding: 10px 5px;
+    font-size: 1em;
+    color: #bdb7ae;
+    outline: none;
+    resize: none;
+}
+
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+    color: #bdb7ae;
+    opacity: 0.7;
+
+}
+
+/*lado esquerdo*/
+
+
+
+/--fundadores--/
+
+
+
