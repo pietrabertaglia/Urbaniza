@@ -147,32 +147,25 @@ h2 {
 
 }
 
-.form-row input,
-
-/*estilo da caixa de texto*/
-
-.cordacaixatexto textarea {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #bdb7ae;
-    background: transparent;
-    padding: 10px 5px;
-    font-size: 1em;
-    color: #bdb7ae;
-    outline: none;
-    resize: none;
+.col p {
+  font-size: 18px;         
+  max-width: 500px;       
+  line-height: 1.6;      
+  text-align: justify;     
+}
+.col img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* mantém proporção legal */
+}
+.col p {
+  width: 300px;      /* mesma largura da foto */
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 2px;
 }
 
-.form-row input::placeholder,
-.form-row textarea::placeholder {
-    color: #bdb7ae;
-    opacity: 0.7;
-
-}
-
-/*lado esquerdo*/
-
-
-.cor{
-    background-color: #beb6a9 ;
+.borda{
+    border-radius: 5%;
 }
